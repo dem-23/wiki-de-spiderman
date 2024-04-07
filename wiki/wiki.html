@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <link rel="icon" href="spider.ico">
+    <meta charset="UTF-8">
+    <title>WikiSpider</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+        }
+        #menu {
+            margin-bottom: 20px;
+        }
+        #contenido {
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body background="fondo.png">
+    <h1>Spider Man</h1>
+    <div id="menu">
+        <button onclick="mostrarInformacion('biografia')">Biografía</button>
+        <button onclick="mostrarInformacion('poderes y debilidades')">Poderes</button>
+        <button onclick="mostrarInformacion('enemigos')">Enemigos</button>
+        <button onclick="mostrarInformacion('aliados')">Aliados</button>
+        <button onclick="mostrarInformacion('historia')">Historia</button>
+    </div>
+    <div id="contenido">
+        <!-- Aquí se mostrará la información -->
+    </div>
+
+    <script>function mostrarInformacion(seccion) {
+    var contenido = document.getElementById('contenido');
+    contenido.innerHTML = ''; // Limpiar el contenido anterior
+
+    switch (seccion) {
+        case 'biografia':
+            contenido.innerHTML = '<h1>Biografía</h1><p>Peter Benjamin Parker era el hijo de Richard Parker y Mary Fitzpatrick, dos agentes de SHIELD que se infiltraron en la organización de Albert Malik al quedarse huérfano, Peter se mudó al barrio neoyorkino de Queens para vivir con sus tíos Benjamin Parker y May Reilly. El joven creció en un ambiente lleno de amor y desarrolló una innata curiosidad por la ciencia. Con 16 años era un estudiante muy aplicado pero con bastantes problemas para hacer amigos. Y tenía que soportar las continuas bromas de Flash Thompson, el estudiante más popular y estrella del equipo de fútbol. Todo transcurría con total normalidad hasta que acudió con su clase a un laboratorio donde se llevaban a cabo experimentos con radioactividad. Una araña se escapó de su contenedor y le picó en la mano, provocándole una enorme fiebre y mareos. Al día siguiente, Peter descubrió que había adquirido los poderes de un arácnido: era capaz de trepar por las paredes, tenía reflejos sobrehumanos y una especie de intuición le avisaba de cualquier peligro. Había nacido Spiderman.</p><img src="kurt.png" alt="Descripción de la imagen" width="530" height="350">';
+            break;
+        case 'poderes y debilidades':
+            contenido.innerHTML = '<h2>Poderes y debilidades</h2><p>La araña que picó a nuestro superhéroe había sido sometida a mutágenos radioactivos y le proporcionó una fuerza, resistencia y agilidad que sobrepasan cualquier límite humano. Además, puede adherirse con su cuerpo a casi cualquier tipo de superficie y tiene una especie de sentido arácnido que le avisa de un peligro inminente.Además, utiliza unos dispositivos lanzarredes que le permiten disparar un hilo flexible, pegajoso y muy resistente. Con él puede desplazarse a gran velocidad por los edificios de New York e inmovilizar a los agresores. Aunque en su primera época también tenía unos rastreadores que le permitían localizar a su objetivo.Como todo héroe, personaje en cualquier historia, Spider-Man tiene debilidades. Pero las de spidey son mucho más cercanas a las que tiene cualquier ser humano. Spider-Man cuenta con el traje más débil de los personajes de Marvel. Debido a que los primeros los fabricó él mismo, son una simple tela que ocultan su identidad, pero no lo protegen de los ataques.Las enfermedades son capaces de derrotar a Spider-Man, como a cualquier persona. Qué no se le vaya a ocurrir a los villanos a llegar un día en el que Peter Parker tiene un resfriado, porque Spider-Man va a estar fuera de combate, es una de las debilidades que más lo trastoca.</p><img src="devil.png" alt="Descripción de la imagen" width="530" height="350"></p>';
+            break;
+        case 'enemigos':
+            contenido.innerHTML = '<h2>Enemigos</h2><h2>El Duende Verde</h2><p>Norman Osborn es el padre de Harry, amigo de Peter Parker. Experimenta con un suero de superfuerza cuando algo sale mal y la fórmula se introduce en su piel. Al principio cree que ha sido un éxito, pero los efectos secundarios harán que pierda totalmente la cabeza.<h2>Doctor Octopus</h2><p>Otto Octavius, más conocido por su sobrenombre de Doctor Octopus, apareció en el Amazing Spider-Man número 3 de 1963. Como casi todos los mejores villanos de Spiderman, fue creado por las geniales mentes de Stan Lee y Steve Ditko. Pero a diferencia de los anteriores, al principio era un amable científico especialista en física nuclear.</p><h2>Venom</h2><p>También conocido como Veneno, no podía faltar en nuestro top de villanos de Spiderman. El origen de este personaje está en la Secret Wars. Peter Parker recibe un nuevo traje que puede controlar a voluntad. Pero lo que no sabe es que en realidad se trata de un simbionte. Una criatura alienígena con voluntad propia.</p><h2>Kingpin</h2><p>Wilson Fisk, el rey de los bajos fondos. Un villano creado por Stan Lee y John Romita que apareció por primera vez en Amazing Spider-Man número 50. Aunque todos los fans lo asociamos a Daredevil, nació originalmente para convertirse en un rival del hombre araña.</p><img src="enemigos.png" alt="Descripción de la imagen" width="600" height="350"></p>';
+            break;
+        case 'aliados':
+            contenido.innerHTML = '<h2>Aliados</h2><h2>La Antorcha Humana y Spider-Man</h2><p>Ambos son jóvenes superhéroes que resuelven sus problemas mediante bromas y, como resultado, ponen de los nervios a sus amigos disfrazados. La principal diferencia es que Johnny tiene al resto de Los Cuatro Fantásticos para tomar el relevo, lo que lo hace más irresponsable que Spider-Man y, lamentablemente, la responsabilidad casi nunca es buena.Johnny Storm también es visto como una celebridad gracias a su conexión con FF, mientras que la gente ve a Spider-Man como una amenaza más gracias a años de mala prensa del Daily Bugle . Sin embargo, cuando los dos se juntan, son un dolor tanto para los héroes como para los villanos.<h2>Wolverine y Spider-Man </h2><p>Las primeras reuniones de Wolverine y Spider-Man no fueron tan bien, y los dos casi pelearon a muerte en un momento. Sin embargo, el tiempo que pasaron juntos en New Avengers mejoró considerablemente su relación. Spider-Man tiende a ser para Wolverine lo que Deadpool es para Spider-Man. Si bien probablemente le causa más problemas a Wolverine de los que vale, tiene buenas intenciones y es demasiado divertido para deshacerse de él.</p><h2>Daredevil y Spider-Man</h2><p>En cierto modo, Daredevil es simplemente Spider-Man sin la superfuerza y ​​las bromas, pero nada es mejor que ser El hombre sin miedo. Los dos héroes callejeros se llevan bien, probablemente porque ambos cargan con una cantidad innecesaria de culpa sobre sus hombros. Además, ambos tienen el mismo trabajo: ayudar a la gente en la ciudad de Nueva York.Daredevil y Spidey incluso comparten algunos de los mismos villanos, ya que tanto Spider-Man como Daredevil tienen que lidiar con la influencia de Kingpin sobre su ciudad. Incluso confían unos en otros para pedir consejo y nunca se abstienen de decirse lo que necesitan escuchar, en lugar de lo que quieren escuchar. La versión de Marvel del espadachín ciego Zatoichi, DD sigue siendo uno de los héroes más geniales de Marvel.</p><img src="ali.png" alt="Descripción de la imagen" width="600" height="400"></p>';
+            break;
+        case 'historia':
+            contenido.innerHTML = '<h2>Historia</h2><p>Peter Parker (alias El hombre araña) es un personaje ficticio del universo Marvel creado por el guionista Stan Lee y el dibujante Steve Ditko para la historieta número #15 de Amazing Fantasy. Dada la naturaleza serial de la publicación de cómics y su longeva existencia, Spider-Man ha evolucionado como personaje a medida que se han ido sumando nuevas aventuras. Los detalles de su origen, relaciones y habilidades han cambiado significativamente durante el curso de la publicación del personaje, desde lo que se considera la Edad de Plata de los cómics hasta la Edad Moderna, convirtiéndose en el icono emblemático de la misma, llegando a representar uno de los personajes más famosos dentro de la industria de los cómics, películas y videojuegos.</p><img src="y.png" alt="Descripción de la imagen" width="600" height="750">';
+            break;
+        default:
+            contenido.innerHTML = '<p>Selecciona una opción del menú para ver más información.</p>';
+    }
+}
+</script>
+</body>
+</html>
